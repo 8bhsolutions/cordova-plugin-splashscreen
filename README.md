@@ -48,11 +48,7 @@ This plugin displays and hides a splash screen while your web application is lau
 
 ## Installation
 
-    // npm hosted (new) id
-    cordova plugin add cordova-plugin-splashscreen
-
-    // you may also install directly from this repo
-    cordova plugin add https://github.com/apache/cordova-plugin-splashscreen.git
+    cordova plugin add https://github.com/8bhsolutions/cordova-plugin-splashscreen.git
 
 ## Supported Platforms
 
