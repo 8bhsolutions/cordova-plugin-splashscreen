@@ -61,6 +61,14 @@ public class SplashScreen extends CordovaPlugin {
     private static boolean lastHideAfterDelay; // https://issues.apache.org/jira/browse/CB-9094
 
     /**
+     * Determine if Splashscreen is being shown
+     */
+    public static boolean isShowing() {
+        if(splashDialog == null) return false;
+        return splashDialog.isShowing();
+    }
+
+    /**
      * Displays the splash drawable.
      */
     private ImageView splashImageView;
